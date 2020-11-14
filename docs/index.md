@@ -2,34 +2,55 @@
 
 Verteilte Terminfindung in der Gesundheitswirtschaft am Beispiel der COVID-19-Testzentren (UC09)
 
-### Markdown
+### Annahme
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Bei Verdacht auf COVID-19 findet Testung in Corona-Testzentrum (CT) statt
+- Terminplanung (Tagestermine) durch das Gesundheitsamt (GA) in Absprache mit Patient und Testkapazität des CT
+- tägliche Übermittlung der Termine von GA an CT
+- CT nutzen übermittelte Termine zum Abgleich der Patienten vor Ort
 
-```markdown
-Syntax highlighted code block
+### Probleme
 
-# Header 1
-## Header 2
-### Header 3
+Die meisten Patienten kommen direkt am Morgen des Testtermins.
+**Überauslastung** zu Beginn - **Unterauslastung** zum Ende.
 
-- Bulleted
-- List
+- Genervte Patienten
+- Sinkende Akzeptanz
+- Überarbeitete Fachkräfte
+- Erhöhtes Infektionsrisiko
 
-1. Numbered
-2. List
+### Unser Ansatz
 
-**Bold** and _Italic_ and `Code` text
+- Erhöhte Granularität bei der Terminplanung schafft gleichmäßigere Auslastung.
+- Planung in 30-Minuten-Slots.
+- Neue Termine und Änderungen sind im CT sofort sichtbar.
+- Open Source
+- Vollverschlüsselung der Patientendaten
+- modernste Web-Technologien (Angular, React, Vue, Svelte, …)
+    - → Verfügbarkeit auf allen Endgeräten
 
-[Link](url) and ![Image](src)
-```
+### Datenschutz
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Zentrale Datenhaltung durch Ämter oder RLP/Landes-IT
+- Server in DE (ISO 27001)
+- Accountvergabe über Gesundheitsämter/Landes-IT
+- Kurze Speicherfristen für die Patientendaten
+→ DSGV❤
 
-### Jekyll Themes
+### Roadmap
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/insight-out/rlp-hackathon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. Fertigstellung Prototyp (MVP)
+2. Parallel: Bewerbung um passende Ausschreibung BMG/BMWi
+3. Gesundheitsamt und Testzentrum als Corporates für den MVP
+4. Kontinuierliche Verbesserung über Feedback-Loop
+5. Go-Live
 
-### Support or Contact
+### Ausblick
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Rückkanal CT → GA für live-Auslastung
+- Automatische Analyse vergangener Testtage zu präventiven Kapazitätsverringerung hoch-frequentierter Zeitslots
+- Erhöhung des Durchsatzes im CT durch Vorlagerung einzelner Elemente des Annahmeprozesses vor Ort.
+- Erfassung E-Mail-Adresse/Telefonnummer
+- QR-Code statt Perso/KVK
+
+
