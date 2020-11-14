@@ -2,7 +2,7 @@
 
 ![preview](/docs/img/preview.PNG "instapointment")
 
-[Furhter information](https://insight-out.github.io/rlp-hackathon/)
+[Further information](https://insight-out.github.io/rlp-hackathon/)
 
 ## Project setup
 ```
