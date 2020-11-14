@@ -1,5 +1,7 @@
 ## instapointment
 
+![preview](/docs/img/preview.PNG "instapointment")
+
 Verteilte Terminfindung in der Gesundheitswirtschaft am Beispiel der COVID-19-Testzentren (UC09)
 
 ### Annahme
