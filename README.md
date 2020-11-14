@@ -1,4 +1,8 @@
-# slots
+# instapointment
+
+![preview](/docs/img/preview.PNG "instapointment")
+
+[Furhter information](https://insight-out.github.io/rlp-hackathon/)
 
 ## Project setup
 ```
